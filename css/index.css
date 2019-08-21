@@ -170,9 +170,10 @@ p {
 }
 .navigation .menu {
   width: 300px;
-  background-color: #DE3C4B;
-  opacity: 0.8;
-  left: -300px;
+  background-color: #FBF5F3;
+  position: absolute;
+  top: 105px;
+  left: 0px;
 }
 .navigation .menu nav {
   display: flex;
@@ -183,12 +184,12 @@ p {
   text-align: center;
   font-size: 2.5rem;
   color: #000022;
-  border-bottom: 1px solid #FBF5F3;
+  border-bottom: 1px solid #DE3C4B;
   padding: 15px;
 }
 .navigation .menu nav a:hover {
-  border-bottom: 1px solid #DE3C4B;
-  background-color: #FBF5F3;
+  border-bottom: 1px solid #FBF5F3;
+  background-color: #DE3C4B;
 }
 .navigation h1 {
   color: #000022;
@@ -199,7 +200,6 @@ p {
   text-align: center;
   background-color: #DE3C4B;
   color: #000022;
-  opacity: 0.8;
   border-radius: 2em;
 }
 .navigation button:hover {

@@ -15,9 +15,10 @@
 
     .menu{
         width: 300px;
-        background-color: @coral;
-        opacity: 0.8;
-        left: -300px;
+        background-color: @whitesmoke;
+        position: absolute;
+        top: 105px;
+        left: 0px;
 
         nav{
             display: flex;
@@ -28,13 +29,13 @@
                 text-align: center;
                 font-size: 2.5rem;
                 color: @text;
-                border-bottom: 1px solid @whitesmoke;
+                border-bottom: 1px solid @btn-bkgrnd;
                 padding: 15px;
             }
 
             a:hover{
-                border-bottom: 1px solid @btn-bkgrnd;
-                background-color: @whitesmoke;
+                border-bottom: 1px solid @whitesmoke;
+                background-color: @btn-bkgrnd;
             }
         }
     }
@@ -49,7 +50,6 @@
         text-align: center;
         background-color: @btn-bkgrnd;
         color: @text;
-        opacity: 0.8;
         border-radius: 2em;
     }
 
