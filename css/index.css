@@ -154,3 +154,30 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  background-color: #FBF5F3;
+}
+.navigation h1 {
+  color: #000022;
+}
+.navigation button {
+  padding: 15px 40px;
+  font-size: 2.4rem;
+  text-align: center;
+  background-color: #DE3C4B;
+  color: #000022;
+  opacity: 0.8;
+  border-radius: 2em;
+}
+.navigation button:hover {
+  background-color: #FBF5F3;
+  border: 2px solid #DE3C4B;
+}
