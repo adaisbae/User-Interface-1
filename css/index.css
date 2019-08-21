@@ -195,12 +195,12 @@ p {
   color: #000022;
 }
 .navigation button {
-  padding: 15px 40px;
-  font-size: 2.4rem;
-  text-align: center;
   background-color: #DE3C4B;
   color: #000022;
   border-radius: 2em;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 15px 40px;
 }
 .navigation button:hover {
   background-color: #FBF5F3;
