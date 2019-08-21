@@ -160,10 +160,13 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
   position: sticky;
+  padding: 20px;
   top: 0;
   background-color: #FBF5F3;
+}
+.navigation .hidden {
+  display: none;
 }
 .navigation h1 {
   color: #000022;
