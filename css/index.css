@@ -165,6 +165,16 @@ p {
   top: 0;
   background-color: #FBF5F3;
 }
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .navigation .menu-icon {
+    margin-bottom: 2em;
+  }
+}
 .navigation .hidden {
   display: none;
 }
@@ -174,6 +184,11 @@ p {
   position: absolute;
   top: 105px;
   left: 0px;
+}
+@media (max-width: 500px) {
+  .navigation .menu {
+    width: 100%;
+  }
 }
 .navigation .menu nav {
   display: flex;
@@ -191,7 +206,12 @@ p {
   border-bottom: 1px solid #FBF5F3;
   background-color: #DE3C4B;
 }
-.navigation h1 {
+@media (max-width: 500px) {
+  .navigation .logo {
+    display: none;
+  }
+}
+.navigation .logo h1 {
   color: #000022;
 }
 .navigation button {
