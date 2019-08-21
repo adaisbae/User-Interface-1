@@ -13,6 +13,32 @@
         display: none;
     }
 
+    .menu{
+        width: 300px;
+        background-color: @coral;
+        opacity: 0.8;
+        left: -300px;
+
+        nav{
+            display: flex;
+            flex-direction: column;
+
+            a{
+                text-decoration: none;
+                text-align: center;
+                font-size: 2.5rem;
+                color: @text;
+                border-bottom: 1px solid @whitesmoke;
+                padding: 15px;
+            }
+
+            a:hover{
+                border-bottom: 1px solid @btn-bkgrnd;
+                background-color: @whitesmoke;
+            }
+        }
+    }
+
     h1{
         color: @text;
     }
@@ -29,7 +55,7 @@
 
     button:hover{
         background-color: @whitesmoke;
-        border: 2px solid @coral;
+        border: 2px solid @btn-bkgrnd;
     }
 };
 
