@@ -1,0 +1,67 @@
+.top-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #e28413;
+    padding: 10px;
+
+    .hdr-text {
+        font-size: 50px;
+        margin: 20px auto;
+
+        @media @mobile {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    h2 {
+        font-size: 25px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+
+        @media @mobile {
+            font-size: 20px;
+        }
+    }
+
+    .buttons {
+        margin: 0 auto;
+        display: flex;
+        width: 30%;
+
+        @media @mobile {
+            width: 100%;
+        }
+
+        @media @tablet {
+            width: 50%;
+        }
+    }
+
+
+    .sign-btn {
+        font-size: 20px;
+        background-color: #DE3C4B;
+        width: 100%;
+        padding: 15px;
+        border-radius: 2em;
+    }
+
+    .sign-btn:hover {
+        background-color: #FBF5F3;
+        border: 2px solid #DE3C4B;
+    }
+
+    .get-started {
+        font-size: 20px;
+        background-color: #DE3C4Bed;
+        width: 100%;
+        padding: 15px;
+        border-radius: 2em;
+    }
+
+    .get-started:hover {
+        background-color: #FBF5F3;
+        border: 2px solid #DE3C4B;
+    }
+}
