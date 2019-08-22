@@ -226,3 +226,9 @@ p {
   background-color: #FBF5F3;
   border: 2px solid #DE3C4B;
 }
+#info {
+  background-color: #E28413;
+  text-align: center;
+  opacity: 0.8;
+  padding: 7em;
+}
