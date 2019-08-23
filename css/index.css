@@ -227,9 +227,10 @@ p {
   border: 2px solid #DE3C4B;
 }
 #info {
-  background-color: #E28413;
+  background-color: #DE3C4B;
   text-align: center;
   padding: 7em;
+  opacity: 0.75;
 }
 #info h2 {
   font-size: 3rem;
@@ -242,7 +243,7 @@ p {
 }
 #info .card p {
   color: #FBF5F3;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 #info .hide {
   display: none;
