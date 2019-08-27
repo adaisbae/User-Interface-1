@@ -1,7 +1,18 @@
 //INFO section
 #info{
     background-color: @coral;
-    opacity: 0.75;
+
+    .card-link {
+            text-align: center;
+            padding-top: 4em;
+
+        a{
+            text-decoration: none;
+            color: @textcontrast;
+            font-size: 2rem;
+            padding: 1em;
+    }
+}
 
     .cards{
         width: 75%;
@@ -14,12 +25,13 @@
             width: 100%;
             flex-shrink: 0;
             height: 100%;
-            padding: 5em;
+            padding: 5.5em;
             scroll-snap-align: start;
     
             p{
                 color: @textcontrast;
                 font-size: 2rem;
+                margin-bottom: 1em;
             }
         }
     }
