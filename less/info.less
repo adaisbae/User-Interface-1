@@ -5,21 +5,24 @@
     padding: 7em;
     opacity: 0.75;
 
-    h2{
-        font-size: 3rem;
-        color: @textcontrast;
-        margin-bottom: 1.4em;
-    }
+    .cards{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        overflow-x: auto;
 
-    .card{
-        width: 85%;
-        margin: 0 auto;
-
-        p{
-            color: @textcontrast;
-            font-size: 1.5rem;
+        .card{
+            width: 300px;
+            flex-shrink: 0;
+            height: 100%;
+    
+            p{
+                color: @textcontrast;
+                font-size: 1.5rem;
+            }
         }
     }
+    
 
     .hide{
         display: none;
