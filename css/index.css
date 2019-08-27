@@ -235,12 +235,14 @@ p {
   display: flex;
   overflow-x: auto;
   margin: 0 auto;
+  scroll-snap-type: x mandatory;
 }
 #info .cards .card {
   width: 100%;
   flex-shrink: 0;
   height: 100%;
   padding: 5em;
+  scroll-snap-align: start;
 }
 #info .cards .card p {
   color: #FBF5F3;
