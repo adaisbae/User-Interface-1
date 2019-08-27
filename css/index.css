@@ -189,6 +189,20 @@ p {
   width: 80%;
 }
 
+@media (max-width: 500px) {
+  .contact-links {
+    flex-wrap: wrap;
+  }
+
+  .footer h2 {
+    font-size: 20px;
+  }
+
+  .contact-links li {
+    font-size: 14px;
+  }
+}
+
 .contact-links li {
   display: flex;
   justify-content: space-between;
@@ -197,9 +211,6 @@ p {
   margin-bottom: 25px;
 }
 
-.contact-links .fa {
-  display: hidden;
-}
 
 .footer p {
   font-size: 12px;
