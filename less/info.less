@@ -1,30 +1,24 @@
 //INFO section
 #info{
     background-color: @coral;
-    text-align: center;
-    padding: 7em;
     opacity: 0.75;
 
     .cards{
-        width: 300px;
-        height: 300px;
+        width: 75%;
         display: flex;
         overflow-x: auto;
+        margin: 0 auto;
 
         .card{
-            width: 300px;
+            width: 100%;
             flex-shrink: 0;
             height: 100%;
+            padding: 5em;
     
             p{
                 color: @textcontrast;
-                font-size: 1.5rem;
+                font-size: 2rem;
             }
         }
-    }
-    
-
-    .hide{
-        display: none;
     }
 }

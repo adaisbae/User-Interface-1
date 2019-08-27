@@ -228,25 +228,21 @@ p {
 }
 #info {
   background-color: #DE3C4B;
-  text-align: center;
-  padding: 7em;
   opacity: 0.75;
 }
 #info .cards {
-  width: 300px;
-  height: 300px;
+  width: 75%;
   display: flex;
   overflow-x: auto;
+  margin: 0 auto;
 }
 #info .cards .card {
-  width: 300px;
+  width: 100%;
   flex-shrink: 0;
   height: 100%;
+  padding: 5em;
 }
 #info .cards .card p {
   color: #FBF5F3;
-  font-size: 1.5rem;
-}
-#info .hide {
-  display: none;
+  font-size: 2rem;
 }
