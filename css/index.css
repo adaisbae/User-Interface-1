@@ -106,6 +106,12 @@ section {
   display: block;
 }
 
+
+body {
+  line-height: 1;
+}
+
+
 body {
   line-height: 1;
 }
@@ -133,10 +139,19 @@ table {
   border-spacing: 0;
 }
 
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -154,10 +169,18 @@ h5 {
   font-family: 'Indie Flower', cursive;
 }
 
+
 h1 {
   font-size: 4rem;
 }
 
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+}
 p {
   line-height: 1.5;
 }
@@ -167,6 +190,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+
 
 
 .footer {
