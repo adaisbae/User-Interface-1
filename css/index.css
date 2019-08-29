@@ -489,6 +489,7 @@ p {
 
 .main {
   display: flex;
+  margin: 15px 0;
 }
 @media (max-width: 800px) {
   .main {
@@ -504,6 +505,7 @@ p {
 .main .column1 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .main .column1 h2 {
   text-align: left;
@@ -523,11 +525,12 @@ p {
 }
 .main .column1 p {
   font-size: 15px;
-  text-align: center;
+
 }
 .main .column2 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .main .column2 h2 {
   text-align: left;
@@ -547,11 +550,11 @@ p {
 }
 .main .column2 p {
   font-size: 15px;
-  text-align: center;
+
 }
 .mid-img {
   margin: auto;
-  padding: 30px;
+  padding: 30px 0 30px 0;
 }
 .mid-img .img-round {
   border-radius: 50%;
