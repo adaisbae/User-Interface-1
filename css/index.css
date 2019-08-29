@@ -459,7 +459,6 @@ p {
 }
 .main .column1 p {
   font-size: 15px;
-  text-align: center;
 }
 .main .column2 {
   display: flex;
@@ -483,7 +482,6 @@ p {
 }
 .main .column2 p {
   font-size: 15px;
-  text-align: center;
 }
 .mid-img {
   margin: auto;
