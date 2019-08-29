@@ -443,7 +443,10 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 15px 15px 0 15px;
-  color: #DE3C4B
+}
+
+.footer i {
+  margin-right: 10px;
 }
 
 .footer h2 {
@@ -459,7 +462,7 @@ p {
 
 @media (max-width: 500px) {
   .contact-links {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .footer h2 {
