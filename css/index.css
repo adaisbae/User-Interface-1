@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -5,6 +6,7 @@
   font-display: swap;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -97,6 +99,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -111,17 +114,33 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
+
+
+body {
+  line-height: 1;
+}
+
+
+body {
+  line-height: 1;
+}
+
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -129,20 +148,36 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
 }
+
 html,
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -150,17 +185,31 @@ h4,
 h5 {
   font-family: 'Roboto', sans-serif;
 }
+
+
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
 h1 {
   font-size: 4rem;
 }
 p {
   line-height: 1.5;
 }
+
 .container {
   max-width: 1040px;
   width: 100%;
   margin: 0 auto;
 }
+
 .top-header {
   display: flex;
   flex-direction: column;
@@ -231,3 +280,288 @@ p {
   background-color: #FBF5F3;
   border: 2px solid #DE3C4B;
 }
+
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 20px;
+  top: 0;
+  background-color: #FBF5F3;
+}
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .navigation .menu-icon {
+    margin-bottom: 2em;
+  }
+}
+.navigation .hidden {
+  display: none;
+}
+.navigation .menu {
+  width: 300px;
+  background-color: #FBF5F3;
+  position: absolute;
+  top: 105px;
+  left: 0px;
+}
+@media (max-width: 500px) {
+  .navigation .menu {
+    width: 100%;
+  }
+}
+.navigation .menu nav {
+  display: flex;
+  flex-direction: column;
+}
+.navigation .menu nav a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #000022;
+  border-bottom: 1px solid #DE3C4B;
+  padding: 15px;
+}
+.navigation .menu nav a:hover {
+  border-bottom: 1px solid #FBF5F3;
+  background-color: #DE3C4B;
+}
+@media (max-width: 500px) {
+  .navigation .logo {
+    display: none;
+  }
+}
+.navigation .logo h1 {
+  color: #000022;
+}
+.navigation button {
+  background-color: #DE3C4B;
+  color: #000022;
+  border-radius: 2em;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 15px 40px;
+}
+.navigation button:hover {
+  background-color: #FBF5F3;
+  border: 2px solid #DE3C4B;
+}
+#info {
+  background-color: #DE3C4B;
+}
+#info .card-link {
+  text-align: center;
+  padding-top: 4em;
+}
+#info .card-link a {
+  text-decoration: none;
+  color: #FBF5F3;
+  font-size: 2rem;
+  padding: 1em;
+}
+@media (max-width: 500px) {
+  #info .card-link a {
+    display: none;
+  }
+}
+#info .cards {
+  width: 75%;
+  display: flex;
+  overflow-x: auto;
+  margin: 0 auto;
+  scroll-snap-type: x mandatory;
+}
+@media (max-width: 500px) {
+  #info .cards {
+    width: 100%;
+  }
+}
+#info .cards .card {
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 5.5em;
+  scroll-snap-align: start;
+}
+@media (max-width: 500px) {
+  #info .cards .card {
+    padding: 3em;
+  }
+}
+#info .cards .card p {
+  color: #FBF5F3;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+.about-top {
+  text-align: center;
+  background-color: #FBF5F3;
+  padding: 3em;
+}
+.about-top h1 {
+  font-size: 3rem;
+}
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #FBF5F3;
+}
+.about .photo {
+  padding: 2em;
+}
+.about .photo img {
+  width: 20em;
+  height: 20em;
+  border-radius: 2em;
+  transition: transform 0.2s;
+}
+.about .photo img:hover {
+  transform: scale(1.5);
+}
+.about .photo h2 {
+  font-size: 1.5rem;
+}
+.about .photo p {
+  font-size: 1.5rem;
+}
+
+
+
+
+
+.footer {
+  background-color: #FBF5F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 15px 0 15px;
+  color: #DE3C4B
+}
+
+.footer h2 {
+  font-size: 30px;
+  margin: 15px;
+}
+
+.contact-links {
+  display: flex;
+  align-content: space-between;
+  width: 80%;
+}
+
+@media (max-width: 500px) {
+  .contact-links {
+    flex-wrap: wrap;
+  }
+
+  .footer h2 {
+    font-size: 20px;
+  }
+
+  .contact-links li {
+    font-size: 14px;
+  }
+}
+
+.contact-links li {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+
+.footer p {
+  font-size: 12px;
+}
+
+.main {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .main {
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+.main .column1 {
+  display: flex;
+  flex-direction: column;
+}
+.main .column1 h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+@media (max-width: 800px) {
+  .main .column1 h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main .column1 h2 {
+    text-align: center;
+  }
+}
+.main .column1 p {
+  font-size: 15px;
+  text-align: center;
+}
+.main .column2 {
+  display: flex;
+  flex-direction: column;
+}
+.main .column2 h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+@media (max-width: 800px) {
+  .main .column2 h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main .column2 h2 {
+    text-align: center;
+  }
+}
+.main .column2 p {
+  font-size: 15px;
+  text-align: center;
+}
+.mid-img {
+  margin: auto;
+  padding: 30px;
+}
+.mid-img .img-round {
+  border-radius: 50%;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 800px) {
+  .mid-img .img-round {
+    width: 100%;
+  }
+}
+
+
+
