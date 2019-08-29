@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -154,3 +163,83 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+
+.main {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .main {
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+.main .column1 {
+  display: flex;
+  flex-direction: column;
+}
+.main .column1 h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+@media (max-width: 800px) {
+  .main .column1 h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main .column1 h2 {
+    text-align: center;
+  }
+}
+.main .column1 p {
+  font-size: 15px;
+  text-align: center;
+}
+.main .column2 {
+  display: flex;
+  flex-direction: column;
+}
+.main .column2 h2 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+@media (max-width: 800px) {
+  .main .column2 h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main .column2 h2 {
+    text-align: center;
+  }
+}
+.main .column2 p {
+  font-size: 15px;
+  text-align: center;
+}
+.mid-img {
+  margin: auto;
+  padding: 30px;
+}
+.mid-img .img-round {
+  border-radius: 50%;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 800px) {
+  .mid-img .img-round {
+    width: 100%;
+  }
+}
+
