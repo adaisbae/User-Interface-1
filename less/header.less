@@ -1,0 +1,69 @@
+.top-header {
+    display: flex;
+    flex-direction: column;
+    padding: 12em 0 10em 0;
+    background-image: url('images/bg-img.jpg');
+    background-color: rgba(238, 238, 238, 0.81) !important;
+    background-blend-mode: color;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    .hdr-text {
+        font-size: 50px;
+        margin: 20px auto;
+
+        @media @mobile {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    h2 {
+        font-size: 25px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+
+        @media @mobile {
+            font-size: 20px;
+        }
+    }
+
+    .buttons {
+        margin: 0 auto;
+        display: flex;
+        width: 20%;
+
+        @media @mobile {
+            width: 100%;
+        }
+
+        @media @tablet {
+            width: 50%;
+        }
+    }
+
+    .get-started {
+        font-size: 20px;
+        background-color: #DE3C4Bed;
+        width: 100%;
+        padding: 0.5em 1em;
+        border-radius: 0.6em;
+        border: 0;
+
+        @media @tablet {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        @media @mobile {
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+
+    .get-started:hover {
+        background-color: #FBF5F3;
+        border: 2px solid #DE3C4B;
+    }
+}
