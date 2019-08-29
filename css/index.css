@@ -273,3 +273,29 @@ p {
   font-size: 2rem;
   margin-bottom: 1em;
 }
+.about-top {
+  text-align: center;
+  background-color: #FBF5F3;
+}
+.about-top h1 {
+  font-size: 3rem;
+}
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #FBF5F3;
+}
+.about .photo {
+  padding: 2em;
+}
+.about .photo img {
+  width: 20em;
+  height: 20em;
+}
+.about .photo h2 {
+  font-size: 1.5rem;
+}
+.about .photo p {
+  font-size: 1.5rem;
+}
