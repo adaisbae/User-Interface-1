@@ -1,6 +1,7 @@
 .about-top{
     text-align: center;
     background-color: @whitesmoke;
+    padding: 3em;
 
     h1{
         font-size: 3rem;
@@ -16,10 +17,16 @@
 
     .photo{
        padding: 2em;
-
+       
         img{
             width: 20em;
             height: 20em;
+            border-radius: 2em;
+            transition: transform .2s; 
+        }
+
+        img:hover{
+            transform: scale(1.5);
         }
 
         h2{

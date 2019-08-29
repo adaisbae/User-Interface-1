@@ -276,6 +276,7 @@ p {
 .about-top {
   text-align: center;
   background-color: #FBF5F3;
+  padding: 3em;
 }
 .about-top h1 {
   font-size: 3rem;
@@ -292,6 +293,11 @@ p {
 .about .photo img {
   width: 20em;
   height: 20em;
+  border-radius: 2em;
+  transition: transform 0.2s;
+}
+.about .photo img:hover {
+  transform: scale(1.5);
 }
 .about .photo h2 {
   font-size: 1.5rem;
